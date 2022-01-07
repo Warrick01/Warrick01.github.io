@@ -10,63 +10,69 @@
     <link rel="stylesheet" href="style.css">
 </head>
 
-    <body class="background">
+<body class="background">
 
-        <p class="page-title" id="intro_page_title">Joel Warrick II<span id="cursor">_</span></p>
+    <p class="page-title" id="intro_page_title">Joel Warrick II<span id="cursor">_</span></p>
 
-        <div>
+    <div>
 
-            <img id="profile_pic" class="center" img src="./assets/WebsiteLogo.svg">
+        <img id="profile_pic" class="center" img src="./assets/WebsiteLogo.svg">
 
-            <p class="summary-content">
-                Computer Science (Software Engineering) @ <span id="ASU">ASU</span><br> 
-                Graduating 2023 <br>
-                <br>
-                Click on ./Projects to see view my projects active on my GitHub repos or ./Experience to read more about my work experience.
-            </p>
+        <p class="summary-content">
+            Computer Science (Software Engineering) @ <span id="ASU">ASU</span><br>
+            Graduating 2023 <br>
+            <br>
+            Click on ./Projects to see view my projects active on my GitHub repos or ./Experience to read more about my
+            work experience.
+        </p>
 
-        </div>
+    </div>
 
-        <div class="center">
+    <div class="center">
 
         <button onclick="location.href= './projects.html'" class="toggle-button" id="projects_toggle">
             ./projects
         </button>
 
-        <button class="toggle-button" id="experience_toggle">
-            ./experience
+        <button class="toggle-button" onclick="window.location.href = 'https://github.com/Warrick01';">
+            My GitHub
         </button>
 
-      </div>
+        <a href="./assets/Resume.pdf" download="Resume(Joel_WarrickII).pdf" target="_blank">
+            <button class="toggle-button">Resume</button>
+            </a>
+            
+        <button class="toggle-button" id="experience_toggle">
+              ./experience
+        </button>
 
-      <table class="center" id="experience_table"></table>
-      
-      <div style="position: fixed; bottom: 0; left: 0" class="social-icons">
+    </div>
 
-          <a target="_blank" href="https://instagram.com/joey_warrick.25">
-              <img src="./assets/instagram-brands.svg" height="50"
-              width="50" alt="My Instagram"> 
-          </a>
+    <table class="center" id="experience_table"></table>
 
-          <a target="_blank" href="https://twitter.com/joeywarrick01">
-            <img src="./assets/twitter-brands.svg" height="50"
-            width="50" alt="My Twitter"> 
-          </a>
+    <div style="position: fixed; bottom: 0; left: 0" class="social-icons">
 
-          <a target="_blank" href="https://linkedin.com/in/joel-warrick-ii-ab8b6a213">
-            <img src="./assets/linkedin-in-brands.svg" height="50"
-            width="50" alt="My linkedin"> 
-          </a>
-          
-          <a target="_blank" href="mailto:jtwarric@asu.edu">
-            <img src="./assets/envelope-regular.svg" height="50"
-            width="50" alt="My Email"> 
-          </a>
+        <a target="_blank" href="https://instagram.com/joey_warrick.25">
+            <img src="./assets/instagram-brands.svg" height="50" width="50" alt="My Instagram">
+        </a>
 
-        </div>
+        <a target="_blank" href="https://twitter.com/joeywarrick01">
+            <img src="./assets/twitter-brands.svg" height="50" width="50" alt="My Twitter">
+        </a>
 
-        <script src="./cursor.js"></script>
-        <script src="./experience_table.js"></script>
+        <a target="_blank" href="https://linkedin.com/in/joel-warrick-ii-ab8b6a213">
+            <img src="./assets/linkedin-in-brands.svg" height="50" width="50" alt="My linkedin">
+        </a>
 
-    </body>
+        <a target="_blank" href="mailto:JoelWarrickII@gmail.com">
+            <img src="./assets/envelope-regular.svg" height="50" width="50" alt="My Email">
+        </a>
+
+    </div>
+
+    <script src="./cursor.js"></script>
+    <script src="./experience_table.js"></script>
+
+</body>
+
 </html>
